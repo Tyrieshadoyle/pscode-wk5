@@ -1,19 +1,36 @@
 // Exercise 1: Calculate the Sum of Two Numbers
-
-(Your pseudocode here)
-
+a = n1 
+b = n2 
+Sum= (a+b)
+print results
 // Exercise 2: Check if a Number is Even or Odd
-
-(Your pseudocode here)
-
+input n
+remainder= n%2
+IF remainder is not equal to 0
+answer=odd
+ELSE
+answer=even
+print results 
 // Exercise 3: 
 Write pseudo code that will perform the following.    
 
-a) Read in 5 separate numbers.   
+a) Read in 5 separate numbers. 
 b) Calculate the average of the five numbers.
 c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
 d) Write out the results found from steps b and c with a message describing what they are
 
-(Your pseudocode here)
-
+a)input 5,6,7,8,9
+b)avg=(5+6+7+8+9)/5
+c)min= if n1<n2 then 
+minimum is n1
+max= if n1>n2 then 
+maximum is n1
+print results 
+d)5+6=11 11+7=18 18+8=26 26+9=35
+35/5=7
+The average of the numbers is 7 
+5<6 6<7 7<8 8<9
+9>8 8>7 7>6 6>5
+The minimum is 5 
+The maximum is 9 
 -- END --
